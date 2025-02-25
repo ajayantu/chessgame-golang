@@ -1,0 +1,32 @@
+# Binaries
+/bin/
+/obj/
+/*.exe
+/*.exe~
+/*.out
+
+# Test binary, build and other artifacts
+*.test
+testoutput/
+
+# Go workspace file
+go.work
+
+# Go dependency directories
+/vendor/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Coverage directory
+coverage.out
+
+# VSCode debug binaries
+__debug_bin*
